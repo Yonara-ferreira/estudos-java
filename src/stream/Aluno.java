@@ -12,6 +12,10 @@ public class Aluno {
 		this.nota = nota;
 	}
 	
+	public String toString() {
+		return nome + " tem nota " + nota;
+	}
+	
 	
 
 }
