@@ -17,6 +17,7 @@ public class MinMax {
 		
 		List<Aluno> alunos = Arrays.asList(a1, a2, a3, a4);
 		
+		@SuppressWarnings("unused")
 		Predicate<Aluno> aprovado = a -> a.nota >= 7;
 		
 		Comparator<Aluno> melhorNota = (aluno1, aluno2) -> {
