@@ -29,7 +29,7 @@ public class ConsultarPessoas01 {
 		}
 		
 		for(Pessoa p: pessoas) {
-			System.out.println(p.getCodigo() + "==>" + p.getNome());
+			System.out.println(p.getCodigo() + " ==> " + p.getNome());
 		}
 		
 		
